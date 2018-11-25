@@ -3,10 +3,10 @@ os: linux
 
 files:
   - source: files/HelloWorld.class
-    destination: ~/jar
+    destination: /home/ubuntu/jar
 
 permissions:
-  - object: ~/jar
+  - object: /home/ubuntu/jar
     pattern: HelloWorld.class
     mode: 755
     type:
