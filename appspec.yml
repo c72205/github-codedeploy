@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+
+files:
+  - source: files/HelloWorld.class
+    destination: ~/jar
+
+permissions:
+  - object: ~/jar
+    pattern: HelloWorld.class
+    mode: 755
+    type:
+      - file
